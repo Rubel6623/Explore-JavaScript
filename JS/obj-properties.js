@@ -6,11 +6,24 @@ var shopingCard={
     keyboard: 1
 }
 console.log(shopingCard);
-// var pencil=shopingCard['pencil'];
-var properties=Object.keys(shopingCard)
+
+var pencilcount=shopingCard['pencil'];
+console.log(pencilcount);
+
+var properties=Object.keys(shopingCard);
 console.log(properties);
+
 var propertiesValues=Object.values(shopingCard);
 console.log(propertiesValues);
-var propertyName='notebook';
+
+var propertyName='pen';
 var propertyvalue=shopingCard[propertyName];
 console.log(propertyvalue);
+
+// update values
+
+shopingCard.mouse=20;
+console.log(shopingCard);
+
+shopingCard['keyboard']=6;
+console.log(shopingCard);
