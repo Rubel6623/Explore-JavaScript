@@ -6,4 +6,4 @@ if(username.toLowerCase()=== userInput.toLowerCase()){
 }
 else{
     console.log('Invalid user');
-}  
+}
